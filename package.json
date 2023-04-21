@@ -1,8 +1,9 @@
 {
-  "name": "express-server",
+  "name": "meta-metagross-bot",
   "version": "1.0.0",
-  "description": "express server with simple routes",
+  "description": "telegram bot server",
   "main": "server.js",
+  "type": "module",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -13,11 +14,8 @@
   "author": "Chambers",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^8.5.1"
+    "node-telegram-bot-api": "^0.61.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
